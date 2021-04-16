@@ -1,0 +1,13 @@
+yarn-debug.log*
+yarn-error.log*
+accounts.txt
+proxies.txt
+yarn-error.log
+node_modules/
+*.log
+npm-debug.log*
+*.dump
+.DS_Store
+Thumbs.db
+lib/**/*
+.vscode/
