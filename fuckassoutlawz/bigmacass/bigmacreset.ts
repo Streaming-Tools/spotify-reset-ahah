@@ -35,7 +35,7 @@ export async function resetAccounts(accounts: string[], proxies: string[]) {
     let tries = 0;
     let resetsSinceProxyChange = 0;
     for (;;) {
-      if (tries > 3) {
+      if (tries > 7) {
         logfuckoutlawz.warn("Could not reset " + acc);
         break;
       }
